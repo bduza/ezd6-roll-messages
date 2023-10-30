@@ -4,12 +4,12 @@
   "name": "ezd6-roll-messages",
   "title": "EZD6 Roll Messages",
   "description": "Roll Message Formatting for EZD6",
-  "authors": [{"name":"Xaukael"}],
-  "version": "1.2.6",
+  "authors": [{"name":"Xaukael"},{"name":"bduza"}],
+  "version": "1.2.7",
 	"socket": true,
   "system": ["ezd6"],
   "compatibility": {
-      "minimum": "10",
+      "minimum": "11",
       "verified": "10"
     },
   "scripts": ["ezd6-roll-messages.js"],
@@ -25,7 +25,7 @@
   "relationships": {
   "requires": [    ]
   },
-  "url": "https://github.com/xaukael/ezd6-roll-messages/",
-    "manifest": "https://github.com/xaukael/ezd6-roll-messages/raw/main/module.json",
-    "download": "https://github.com/xaukael/ezd6-roll-messages/raw/main/ezd6-roll-messages.zip"
+  "url": "https://github.com/bduza/ezd6-roll-messages/",
+    "manifest": "https://github.com/bduza/ezd6-roll-messages/raw/main/module.json",
+    "download": "https://github.com/bduza/ezd6-roll-messages/raw/main/ezd6-roll-messages.zip"
 }
