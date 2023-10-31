@@ -1,9 +1,9 @@
 
 {
-  "id": "ezd6-roll-messages",
-  "name": "ezd6-roll-messages",
-  "title": "EZD6 Roll Messages",
-  "description": "Roll Message Formatting for EZD6",
+  "id": "ezd6-roll-messages-legacy",
+  "name": "ezd6-roll-messages-with-macros",
+  "title": "EZD6 Roll Messages - Legacy",
+  "description": "Roll Message Formatting for EZD6 with Legacy Macro Compendium",
   "authors": [{"name":"Xaukael"}],
   "version": "1.2.7",
 	"socket": true,
