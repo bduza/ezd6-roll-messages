@@ -622,6 +622,7 @@ ezd6.confirmCrit = async function(message, brutal) {
     actions = [...message.flags.ezd6.actions];
   actions.push(`Rolled die ${results.length} to confirm a crit - ${ezd6.d6pips[results[results.length-1].result]}`)
   await message.update({content:roll.total, flags:{ezd6:{results, actions}}});
+  ChatLog.scrollBottom();
   //console.log(roll)
   //if (roll.total==1) ezd6.confirmCrit(message, brutal);
 }
